@@ -12,10 +12,11 @@ module.exports = {
    // remove unused css
    theme: {
       screens: {
-         sm: '480px',
+         sm: '640px',
          md: '768px',
-         lg: '976px',
-         xl: '1440px',
+         lg: '1024px',
+         xl: '1280px',
+         '2xl': '1536px',
       },
       colors: {
          red: '#FC4747',
@@ -28,7 +29,15 @@ module.exports = {
          sans: ['Graphik', 'sans-serif'],
          serif: ['Merriweather', 'serif'],
       },
-      extend: {},
+      extend: {
+         spacing: {
+            128: '32rem',
+            144: '36rem',
+         },
+         borderRadius: {
+            '4xl': '2rem',
+         },
+      },
    },
    plugins: [],
 }
