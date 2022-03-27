@@ -1,2 +1,3 @@
-// export * from './FileViewer'
-// export { default } from './FileViewer'
+// export * from './Search'
+// export { default } from './Search'
+// import Search from '../Search' // better import
