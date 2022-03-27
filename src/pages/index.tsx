@@ -3,14 +3,11 @@ import type { NextPage } from 'next'
 const Home: NextPage = () => {
    return (
       <main>
-         <div className="flex">
-            <div>
-               <h1 className="font-outfit">title</h1>
-            </div>
-            <div>
-               <h2>title sd</h2>
-            </div>
-         </div>
+         <input
+            type="text"
+            className="w-[100%] pb-2 pt-2 placeholder:text-slateBlue, text-headingSM"
+            placeholder="Search for movies or TV series"
+         />
       </main>
    )
 }
