@@ -5,7 +5,7 @@ const Home: NextPage = () => {
       <main>
          <div className="flex">
             <div>
-               <h1 className="text-red-300 fixed z-10 inset-0 translate-x-[50%]">
+               <h1 className="text-red fixed z-10 inset-0 translate-x-[50%]">
                   title
                </h1>
             </div>

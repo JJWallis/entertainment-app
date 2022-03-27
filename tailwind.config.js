@@ -11,7 +11,13 @@ module.exports = {
    ],
    // remove unused css
    theme: {
-      extend: {},
+      extend: {
+         colors: {
+            red: '#FC4747',
+            darkBlue: '#10141e',
+            slateBlue: '#5A698F',
+         },
+      },
    },
    plugins: [],
 }
