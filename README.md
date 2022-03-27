@@ -1,6 +1,6 @@
-# Frontend Mentor - ‘…’ solution
+# Frontend Mentor - Entertainment web app solution
 
-This is a solution to the **‘…’** challenge on Frontend Mentor(link)
+This is a solution to the [Entertainment web app challenge](https://www.frontendmentor.io/challenges/entertainment-web-app-J-UhgAW1X) on Frontend Mentor
 
 ## Table of contents
 
