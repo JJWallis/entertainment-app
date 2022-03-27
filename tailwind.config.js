@@ -35,6 +35,11 @@ module.exports = {
          headingSM: '1.5rem',
          headingL: '2rem',
       },
+      fontWeight: {
+         light: 300,
+         normal: 400,
+         medium: 500,
+      },
       extend: {
          spacing: {
             128: '32rem',
