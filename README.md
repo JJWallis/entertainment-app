@@ -1,6 +1,6 @@
-# Frontend Mentor - ‘…’ solution
+# Frontend Mentor - Entertainment web app solution
 
-This is a solution to the **‘…’** challenge on Frontend Mentor(link)
+This is a solution to the [Entertainment web app challenge](https://www.frontendmentor.io/challenges/entertainment-web-app-J-UhgAW1X) on Frontend Mentor
 
 ## Table of contents
 
@@ -22,9 +22,17 @@ This is a solution to the **‘…’** challenge on Frontend Mentor(link)
 
 Your users should be able to:
 
+-  View the optimal layout for the app depending on their device's screen size
+-  See hover states for all interactive elements on the page
+-  Navigate between Home, Movies, TV Series, and Bookmarked Shows pages
+-  Add/Remove bookmarks from all movies and TV series
+-  Search for relevant shows on all pages
+-  Bonus: Build this project as a full-stack application
+-  Bonus: If you're building a full-stack app, we provide authentication screen (sign-up/login) designs if you'd like to create an auth flow
+
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
@@ -40,8 +48,8 @@ Your users should be able to:
 -  CSS Grid
 -  Mobile-first workflow
 -  [React](https://reactjs.org/) - JS library
--  [Styled Components](https://styled-components.com/) - For styles
--  Sass - CSS preprocessor
+-  [Next.js](https://nextjs.org/) - React Framework
+-  [TailWind CSS](https://tailwindcss.com/)
 
 ### What I learned
 
@@ -63,20 +71,14 @@ const proudOfThisFunc = () => {
 
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
 ### Useful resources
-
--  [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
 
 ## Author
 
 -  Website - [Joshua Jameson-Wallis](https://joshuajamesonwallis.com)
--  Linkedin - [Joshua Jameson-Wallis]()
+-  Linkedin - [Joshua Jameson-Wallis](https://www.linkedin.com/in/joshua-jameson-wallis/)
 
 ## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
 
 ###### TODO
 
