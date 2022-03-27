@@ -26,8 +26,7 @@ module.exports = {
          white: '#ffffff',
       },
       fontFamily: {
-         sans: ['Graphik', 'sans-serif'],
-         serif: ['Merriweather', 'serif'],
+         outfit: ['Outfit', 'sans-serif'],
       },
       extend: {
          spacing: {
