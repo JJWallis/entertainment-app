@@ -90,9 +90,6 @@ button,
 textarea,
 select {
    font: inherit;
-   outline: none;
-   border: none;
-   background-color: none;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
