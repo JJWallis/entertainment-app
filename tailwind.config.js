@@ -48,6 +48,9 @@ module.exports = {
          borderRadius: {
             '4xl': '2rem',
          },
+         gridTemplateColumns: {
+            search: '100px 1fr',
+         },
       },
    },
    plugins: [],
