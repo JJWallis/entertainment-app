@@ -1,13 +1,24 @@
 import type { NextPage } from 'next'
+import Image from 'next/image'
+import SearchIcon from '../assets/icon-search.svg'
 
 const Home: NextPage = () => {
    return (
       <main>
-         <input
-            type="text"
-            className="w-[100%] border-0 pb-2 pt-2 text-headingSM text-white bg-deepBlue focus:border-b-2 focus:border-slateBlue focus:outline-none"
-            placeholder="Search for movies or TV series"
-         />
+         <div className="grid grid-cols-search">
+            <button
+               aria-label="Search desired movie or tv show"
+               className="grid place-items-center"
+            >
+               <Image src={SearchIcon} alt="" />
+            </button>
+            <input
+               type="text"
+               placeholder="Search for movies or TV series"
+               className="outline-none w-[100%] border-b-2 border-b-slateBlue border-opacity-0 pt-2 caret-red text-headingSM text-white bg-deepBlue hover:border-opacity-100 focus:border-opacity-100 transition-border duration-150 ease-in-out"
+            />
+            {/* error styles */}
+         </div>
       </main>
    )
 }

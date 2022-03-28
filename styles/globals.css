@@ -2,15 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+/* reset/global */
+
 html,
 body {
    padding: 0;
    margin: 0;
-   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+   font: 400 0.9375rem/1.6 'Outfit', sans-serif;
+   background-color: #10141e;
+   color: white;
 }
-
-/* reset */
 
 *,
 *::before,
@@ -45,12 +46,6 @@ h6 {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
-   list-style: none;
-   padding: 0;
-   margin: 0;
-}
 
 ul,
 ol {
