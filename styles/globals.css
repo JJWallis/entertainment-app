@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-/* reset */
+/* reset/global */
 
 html,
 body {
    padding: 0;
    margin: 0;
+   font: 400 0.9375rem/1.6 'Outfit', sans-serif;
+   background-color: #10141e;
+   color: white;
 }
 
 *,
@@ -87,6 +90,9 @@ button,
 textarea,
 select {
    font: inherit;
+   outline: none;
+   border: none;
+   background-color: none;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
