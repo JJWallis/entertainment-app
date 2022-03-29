@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import data from '../data.json'
+import TestImg from '../assets/thumbnails/112/regular/small.jpg'
 import Image from 'next/image'
 
 const Home: NextPage = () => {
@@ -9,10 +9,13 @@ const Home: NextPage = () => {
             aria-labelledby={''}
             className="grid place-items-center h-20 border-2 border-red"
          >
-            <button className='className="block'>
-               img
+            <button
+               className="block bg-cover"
+               style={{ backgroundImage: `${TestImg}` }}
+            >
                {/* <Image
-                  src={process.env.PUBLIC_URL + data[0].thumbnail.regular.small}
+                  src={TestImg}
+                  // process.env.PUBLIC_URL
                   alt="lol"
                   width={'100%'}
                   height={'100%'}
