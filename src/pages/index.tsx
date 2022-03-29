@@ -6,15 +6,15 @@ const Home: NextPage = () => {
    return (
       <main>
          <section aria-labelledby={''} className="border-2 border-red">
-            {/* <button className='className="block'>
+            <button className='className="block'>
                {/* <Image
                   src={data[0].thumbnail.regular.small}
                   alt="lol"
                   width={'100%'}
                   height={'100%'}
                /> */}
-            {/* </button>  */}
-            <button
+            </button>
+            {/* <button
                aria-label="bookmark dynamic-film"
                className="grid place-items-center w-6 h-6 rounded-full bg-[#000] bg-opacity-10 hover:bg-white group transition-bg duration-200 ease-in-out"
             >
@@ -27,7 +27,7 @@ const Home: NextPage = () => {
                      fill="none"
                   />
                </svg>
-            </button>
+            </button> */}
          </section>
       </main>
    )
