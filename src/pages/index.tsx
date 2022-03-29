@@ -9,14 +9,17 @@ const Home: NextPage = () => {
             aria-labelledby={''}
             className="grid place-items-center h-20 border-2 border-red"
          >
-            <button className='className="block'>
-               <Image
+            <button
+               className="block bg-cover"
+               style={{ backgroundImage: `${TestImg}` }}
+            >
+               {/* <Image
                   src={TestImg}
                   // process.env.PUBLIC_URL
                   alt="lol"
                   width={'100%'}
                   height={'100%'}
-               />
+               /> */}
             </button>
             {/* <button
                aria-label="bookmark dynamic-film"
