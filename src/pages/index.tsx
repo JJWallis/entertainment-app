@@ -1,26 +1,42 @@
 import type { NextPage } from 'next'
+import data from '../data.json'
 import Image from 'next/image'
-import SearchIcon from '../assets/icon-search.svg'
 
 const Home: NextPage = () => {
    return (
       <main>
-         <div className="grid grid-cols-search">
-            <button
-               aria-label="Search desired movie or tv show"
-               className="grid place-items-center"
-            >
-               <Image src={SearchIcon} alt="" />
+         <section
+            aria-labelledby={''}
+            className="grid place-items-center h-20 border-2 border-red"
+         >
+            <button className='className="block'>
+               img
+               {/* <Image
+                  src={process.env.PUBLIC_URL + data[0].thumbnail.regular.small}
+                  alt="lol"
+                  width={'100%'}
+                  height={'100%'}
+               /> */}
             </button>
-            <input
-               type="text"
-               placeholder="Search for movies or TV series"
-               className="outline-none w-[100%] border-b-2 border-b-slateBlue border-opacity-0 pt-2 caret-red text-headingSM text-white bg-deepBlue hover:border-opacity-100 focus:border-opacity-100 transition-border duration-150 ease-in-out"
-            />
-            {/* error styles */}
-         </div>
+            {/* <button
+               aria-label="bookmark dynamic-film"
+               className="grid place-items-center w-6 h-6 rounded-full bg-[#000] bg-opacity-10 hover:bg-white group transition-bg duration-200 ease-in-out"
+            >
+               <svg width="12" height="14" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                     className="group-hover:stroke-deepBlue transition-stroke duration-200 ease-in-out"
+                     d="m10.518.75.399 12.214-5.084-4.24-4.535 4.426L.75 1.036l9.768-.285Z"
+                     stroke="#FFF"
+                     strokeWidth="1.2"
+                     fill="none"
+                  />
+               </svg>
+            </button> */}
+         </section>
       </main>
    )
 }
+
+// bookmark + film component
 
 export default Home
