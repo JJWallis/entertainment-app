@@ -6,17 +6,25 @@ const Home: NextPage = () => {
    return (
       <main>
          <section aria-labelledby={''} className="border-2 border-red">
-            <button className='className="block border-2'>
+            {/* <button className='className="block'>
                {/* <Image
                   src={data[0].thumbnail.regular.small}
                   alt="lol"
                   width={'100%'}
                   height={'100%'}
                /> */}
+            {/* </button>  */}
+            <button aria-label="bookmark dynamic-film" className="block">
+               <svg width="12" height="14" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                     d="m10.518.75.399 12.214-5.084-4.24-4.535 4.426L.75 1.036l9.768-.285Z"
+                     stroke="#FFF"
+                     strokeWidth="1.5"
+                     fill="none"
+                  />
+               </svg>
             </button>
          </section>
-
-         {/*  grid layout | btn bookark | raw SVG */}
       </main>
    )
 }
