@@ -1,6 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
-import SearchIcon from '../assets/icon-search.svg'
+import SearchIcon from '../../assets/icon-search.svg'
 
 const Search: React.FC = () => {
    return (
