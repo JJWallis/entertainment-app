@@ -53,37 +53,17 @@ Your users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-   color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-   console.log('🎉')
-}
-```
-
 ### Continued development
 
 ### Useful resources
+
+-  [Next.js Docs](https://nextjs.org/docs) = The Next docs are a great resource to learn how to incorporate Next into our projects as well as all the beneficial features it adds on top of React.
+
+-  [TailWind CSS Docs](https://tailwindcss.com/) = Likewise, the TailWind docs are also my go to resource for primarily learning how to setup its configuration and all the utility classes they expose to us.
+
+-  [FireShip - TailWind CSS Tutorial](https://www.youtube.com/watch?v=pfaSUYaSgRo&ab_channel=Fireship) = This tutorial by FireShip was a great introduction to using the TailWind framework and learning more about why we might choose to write our CSS in this manner instead of the other methods available to us.
 
 ## Author
 
 -  Website - [Joshua Jameson-Wallis](https://joshuajamesonwallis.com)
 -  Linkedin - [Joshua Jameson-Wallis](https://www.linkedin.com/in/joshua-jameson-wallis/)
-
-## Acknowledgments
-
-###### TODO
-
-HTML:
-
-CSS:
-
-JS:
