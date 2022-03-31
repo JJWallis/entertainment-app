@@ -53,37 +53,17 @@ Your users should be able to:
 
 ### What I learned
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-
-```css
-.proud-of-this-css {
-   color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-   console.log('🎉')
-}
-```
-
 ### Continued development
 
 ### Useful resources
+
+-  Next.js DOCS =
+
+-  TailWind CSS DOCS =
+
+-  FireShip TailWind CSS tutorial =
 
 ## Author
 
 -  Website - [Joshua Jameson-Wallis](https://joshuajamesonwallis.com)
 -  Linkedin - [Joshua Jameson-Wallis](https://www.linkedin.com/in/joshua-jameson-wallis/)
-
-## Acknowledgments
-
-###### TODO
-
-HTML:
-
-CSS:
-
-JS:
