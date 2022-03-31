@@ -57,11 +57,11 @@ Your users should be able to:
 
 ### Useful resources
 
--  Next.js DOCS =
+-  [Next.js Docs](https://nextjs.org/docs) = The Next docs are a great resource to learn how to incorporate Next into our projects as well as all the beneficial features it adds on top of React.
 
--  TailWind CSS DOCS =
+-  [TailWind CSS Docs](https://tailwindcss.com/) = Likewise, the TailWind docs are also my go to resource for primarily learning how to setup its configuration and all the utility classes they expose to us.
 
--  FireShip TailWind CSS tutorial =
+-  [FireShip - TailWind CSS Tutorial](https://www.youtube.com/watch?v=pfaSUYaSgRo&ab_channel=Fireship) = This tutorial by FireShip was a great introduction to using the TailWind framework and learning more about why we might choose to write our CSS in this manner instead of the other methods available to us.
 
 ## Author
 
