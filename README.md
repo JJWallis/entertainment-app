@@ -53,6 +53,33 @@ Your users should be able to:
 
 ### What I learned
 
+```jsx
+import type { NextPage } from 'next'
+import Image from 'next/image'
+
+const Home: NextPage = () => {
+   return <>...</>
+}
+```
+
+This is currently my first project using Next.js as a meta framework built on top React that I decided to use since this project requires me to build out a full stack entertainment application involving state management, fetching data from a local JSON file and implementing client-side routing to four different pages. Handling routing in Next is much simpler than using the popular library React Router, since it's modelled around our file and folder structure inside the pages directory where each file represents a different route available to the app. As shown above, Next also exposes specific components to us like `Image` that provide built in optimisation benefits and a more intuitive API for managing that type of data.
+
+```jsx
+<input
+   placeholder="Search for movies or TV series"
+   className="outline-none w-[100%] border-b-2 border-b-slateBlue border-opacity-0 pt-2 caret-red text-headingSM text-white bg-deepBlue hover:border-opacity-100 focus:border-opacity-100 transition-border duration-150 ease-in-out"
+/>
+```
+
+This was also my first time using the CSS framework TailWind CSS that allows us to write all of our styles through pre-built utility classes, solving many of the issues that can arise when writing CSS such as specificity issues. I have loved working with this framework so far due to its flexibility in changing our design without having to create an increasing number of modifier classes. I can simply add a different hover effect or colour on the element itself without having to worry about any previous elements that share most of the same styles.
+
+```jsx
+export * from './Search'
+export { default } from './Search'
+```
+
+This is a new technique using ES6 Modules that I recently learnt about when reading through a recent post on Josh Comeau's blog about his ideal React folder structure. The idea behind this concept is that the index file above will redirect the module bundler to the exported component, shortening our import statements by one directory and allowing us to avoid populating our code tabs with index files everywhere!
+
 ### Continued development
 
 ### Useful resources
@@ -62,6 +89,8 @@ Your users should be able to:
 -  [TailWind CSS Docs](https://tailwindcss.com/) = Likewise, the TailWind docs are also my go to resource for primarily learning how to setup its configuration and all the utility classes they expose to us.
 
 -  [FireShip - TailWind CSS Tutorial](https://www.youtube.com/watch?v=pfaSUYaSgRo&ab_channel=Fireship) = This tutorial by FireShip was a great introduction to using the TailWind framework and learning more about why we might choose to write our CSS in this manner instead of the other methods available to us.
+
+-  [Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 
 ## Author
 
