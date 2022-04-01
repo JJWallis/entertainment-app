@@ -53,6 +53,27 @@ Your users should be able to:
 
 ### What I learned
 
+```jsx
+import type { NextPage } from 'next'
+import Image from 'next/image'
+
+const Home: NextPage = () => {
+   return <>...</>
+}
+```
+
+```jsx
+<input
+   placeholder="Search for movies or TV series"
+   className="outline-none w-[100%] border-b-2 border-b-slateBlue border-opacity-0 pt-2 caret-red text-headingSM text-white bg-deepBlue hover:border-opacity-100 focus:border-opacity-100 transition-border duration-150 ease-in-out"
+/>
+```
+
+```jsx
+export * from './Search'
+export { default } from './Search'
+```
+
 ### Continued development
 
 ### Useful resources
