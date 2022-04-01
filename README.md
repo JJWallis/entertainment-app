@@ -71,6 +71,8 @@ This is currently my first project using Next.js as a meta framework built on to
 />
 ```
 
+This was also my first time using the CSS framework TailWind CSS that allows us to write all of our styles through pre-built utility classes, solving many of the issues that can arise when writing CSS such as specificity issues. I have loved working with this framework so far due to its flexibility in changing our design without having to create an increasing number of modifier classes. I can simply add a different hover effect or colour on the element itself without having to worry about any previous elements that share most of the same styles.
+
 ```jsx
 export * from './Search'
 export { default } from './Search'
