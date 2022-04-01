@@ -62,6 +62,8 @@ const Home: NextPage = () => {
 }
 ```
 
+This is currently my first project using Next.js as a meta framework built on top React that I decided to use since this project requires me to build out a full stack entertainment application involving state management, fetching data from a local JSON file and implementing client-side routing to four different pages. Handling routing in Next is much simpler than using the popular library React Router, since it's modelled around our file and folder structure inside the pages directory where each file represents a different route available to the app. As shown above, Next also exposes specific components to us like `Image` that provide built in optimisation benefits and a more intuitive API for managing that type of data.
+
 ```jsx
 <input
    placeholder="Search for movies or TV series"
