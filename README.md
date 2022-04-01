@@ -90,7 +90,7 @@ This is a new technique using ES6 Modules that I recently learnt about when read
 
 -  [FireShip - TailWind CSS Tutorial](https://www.youtube.com/watch?v=pfaSUYaSgRo&ab_channel=Fireship) = This tutorial by FireShip was a great introduction to using the TailWind framework and learning more about why we might choose to write our CSS in this manner instead of the other methods available to us.
 
--  [Josh Blog Post]() =
+-  [Delightful React File/Directory Structure](https://www.joshwcomeau.com/react/file-structure/)
 
 ## Author
 
