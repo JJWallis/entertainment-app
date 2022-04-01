@@ -78,6 +78,8 @@ export * from './Search'
 export { default } from './Search'
 ```
 
+This is a new technique using ES6 Modules that I recently learnt about when reading through a recent post on Josh Comeau's blog about his ideal React folder structure. The idea behind this concept is that the index file above will redirect the module bundler to the exported component, shortening our import statements by one directory and allowing us to avoid populating our code tabs with index files everywhere!
+
 ### Continued development
 
 ### Useful resources
@@ -87,6 +89,8 @@ export { default } from './Search'
 -  [TailWind CSS Docs](https://tailwindcss.com/) = Likewise, the TailWind docs are also my go to resource for primarily learning how to setup its configuration and all the utility classes they expose to us.
 
 -  [FireShip - TailWind CSS Tutorial](https://www.youtube.com/watch?v=pfaSUYaSgRo&ab_channel=Fireship) = This tutorial by FireShip was a great introduction to using the TailWind framework and learning more about why we might choose to write our CSS in this manner instead of the other methods available to us.
+
+-  [Josh Blog Post]() =
 
 ## Author
 
