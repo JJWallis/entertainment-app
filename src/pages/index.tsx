@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import TestImg from '../assets/thumbnails/112/regular/small.jpg'
+import Play from '../assets/icon-play.svg'
 import Image from 'next/image'
 
 const Home: NextPage = () => {
@@ -37,9 +38,17 @@ const Home: NextPage = () => {
                      />
                   </svg>
                </button>
-               <div className="absolute z-10 inset-0 bg-deepBlue bg-opacity-50 opacity-100 rounded-lg">
-                  {/* transform scale to make visible */}
-                  <button></button>
+               <div className="absolute z-10 inset-0 grid place-items-center bg-deepBlue bg-opacity-50 opacity-100 rounded-lg">
+                  <button>
+                     <Image
+                        // process.env.PUBLIC_URL
+                        src={Play}
+                        alt={''}
+                        width={'20px'}
+                        height={'20px'}
+                        className="rounded-lg"
+                     />
+                  </button>
                </div>
             </button>
          </section>
