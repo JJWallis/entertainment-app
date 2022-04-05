@@ -3,7 +3,7 @@ import Film from '../components/film'
 
 const Home: NextPage = () => {
    return (
-      <main className="border-2 border-white grid grid-cols-movies">
+      <main className="grid grid-cols-movies gap-8">
          <Film />
          <Film />
          <Film />

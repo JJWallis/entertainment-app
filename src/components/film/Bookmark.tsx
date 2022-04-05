@@ -10,7 +10,7 @@ const Bookmark: React.FC<Props> = ({ bookmarked }) => {
    return (
       <button
          aria-label={''}
-         className="absolute z-20  top-2 right-2 grid place-items-center col-span-full row-span-full w-6 h-6 rounded-full bg-[#000] bg-opacity-70 hover:bg-white group transition-bg duration-200 ease-in-out"
+         className="absolute z-20  top-[5%] right-[5%] grid place-items-center col-span-full row-span-full w-10 h-10 rounded-full bg-[#000] bg-opacity-70 hover:bg-white group transition-bg duration-200 ease-in-out"
       >
          <svg width="12" height="14" xmlns="http://www.w3.org/2000/svg">
             <path
