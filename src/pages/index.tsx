@@ -3,23 +3,23 @@ import TestImg from '../assets/thumbnails/112/regular/small.jpg'
 import Image from 'next/image'
 
 const Home: NextPage = () => {
-   // bookmark - selected state
    return (
       <main>
          <section
             aria-labelledby={''}
             className="grid grid-cols-movie place-items-center h-20 border-2 border-red"
          >
-            <button className="relative border-2">
+            <button className="relative block">
                <Image
-                  src={TestImg}
                   // process.env.PUBLIC_URL
-                  alt="lol"
+                  src={TestImg}
+                  alt={''}
                   width={'100%'}
                   height={'100%'}
+                  className="rounded-lg"
                />
                <button
-                  aria-label="bookmark dynamic-film"
+                  aria-label={''}
                   className="absolute top-2 right-2 grid place-items-center col-span-full row-span-full w-6 h-6 rounded-full bg-[#000] bg-opacity-70 hover:bg-white group transition-bg duration-200 ease-in-out"
                >
                   <svg
