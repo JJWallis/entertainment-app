@@ -24,3 +24,5 @@ const Bookmark: React.FC<Props> = ({ bookmarked }) => {
       </button>
    )
 }
+
+export default Bookmark
