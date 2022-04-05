@@ -50,6 +50,7 @@ module.exports = {
          },
          gridTemplateColumns: {
             search: '100px 1fr',
+            movies: 'repeat(auto-fit, minmax(200px, 1fr))',
          },
       },
    },
