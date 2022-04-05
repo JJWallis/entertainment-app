@@ -16,7 +16,6 @@ const Film: React.FC = () => {
             height={'100%'}
             className="rounded-lg"
          />
-         {/* make own component - Bookmark */}
          <button
             aria-label={''}
             className="absolute z-20  top-2 right-2 grid place-items-center col-span-full row-span-full w-6 h-6 rounded-full bg-[#000] bg-opacity-70 hover:bg-white group transition-bg duration-200 ease-in-out"
