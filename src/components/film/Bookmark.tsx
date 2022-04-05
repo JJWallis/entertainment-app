@@ -6,6 +6,7 @@ interface Props {
 
 const Bookmark: React.FC<Props> = ({ bookmarked }) => {
    const [bookmark, setBoomark] = useState(bookmarked)
+   // style selected state
 
    return (
       <button
