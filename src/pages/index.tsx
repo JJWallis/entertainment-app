@@ -18,9 +18,10 @@ const Home: NextPage = () => {
                   height={'100%'}
                   className="rounded-lg"
                />
+               {/* make own component - Bookmark */}
                <button
                   aria-label={''}
-                  className="absolute top-2 right-2 grid place-items-center col-span-full row-span-full w-6 h-6 rounded-full bg-[#000] bg-opacity-70 hover:bg-white group transition-bg duration-200 ease-in-out"
+                  className="absolute z-20  top-2 right-2 grid place-items-center col-span-full row-span-full w-6 h-6 rounded-full bg-[#000] bg-opacity-70 hover:bg-white group transition-bg duration-200 ease-in-out"
                >
                   <svg
                      width="12"
@@ -36,6 +37,10 @@ const Home: NextPage = () => {
                      />
                   </svg>
                </button>
+               <div className="absolute z-10 inset-0 bg-deepBlue bg-opacity-50 opacity-100 rounded-lg">
+                  {/* transform scale to make visible */}
+                  <button></button>
+               </div>
             </button>
          </section>
       </main>
