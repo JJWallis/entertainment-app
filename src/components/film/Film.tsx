@@ -1,6 +1,6 @@
 import React from 'react'
-import TestImg from '../assets/thumbnails/112/regular/large.jpg'
-import Play from '../assets/icon-play.svg'
+import TestImg from '../../assets/thumbnails/112/regular/large.jpg'
+import Play from '../../assets/icon-play.svg'
 import Image from 'next/image'
 import Bookmark from './Bookmark'
 
