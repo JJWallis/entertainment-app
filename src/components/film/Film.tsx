@@ -4,8 +4,17 @@ import Image from 'next/image'
 import Bookmark from './Bookmark'
 import type { FilmData } from '../../types/Film.interface'
 
-const Film: React.FC<FilmData> = ({ title, isBookmarked, thumbnail }) => {
-   const { regular } = thumbnail
+interface Props {
+   data: FilmData
+}
+
+const Film: React.FC<Props> = ({ data }) => {
+   const {
+      isBookmarked,
+      title,
+      thumbnail: { regular },
+   } = data
+
    return (
       <div role="gridcell" className="relative block">
          <Image

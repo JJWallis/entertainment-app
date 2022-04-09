@@ -1,10 +1,10 @@
 export interface FilmData {
    title: string
    thumbnail: {
-      trending: Thumbnail
+      trending?: Thumbnail
       regular: Regular
    }
-   year: string
+   year: number
    category: string
    rating: string
    isBookmarked: boolean
@@ -13,7 +13,7 @@ export interface FilmData {
 
 interface Thumbnail {
    small: string
-   medium: string
+   medium?: string
 }
 
 interface Regular {
