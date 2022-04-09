@@ -1,10 +1,7 @@
 export interface Film {
    title: string
    thumbnail: {
-      trending: {
-         small: string
-         large: string
-      }
+      trending: Thumbnail
       regular: {
          small: string
          medium: string
@@ -18,4 +15,9 @@ export interface Film {
    isTrending: boolean
 }
 
-interface Thumbnail {}
+interface Thumbnail {
+   small: string
+   medium: string
+}
+
+interface Regular {}
