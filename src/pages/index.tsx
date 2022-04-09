@@ -6,8 +6,6 @@ const Home: NextPage = () => {
       <main className="grid grid-cols-movies gap-8">
          <Film />
          <Film />
-         <Film />
-         <Film />
       </main>
    )
 }
