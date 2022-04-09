@@ -8,7 +8,7 @@ import Bookmark from './Bookmark'
 
 const Film: React.FC = () => {
    return (
-      <button className="relative block">
+      <div className="relative block">
          <Image
             src={TestImg}
             alt={''}
@@ -31,7 +31,7 @@ const Film: React.FC = () => {
                <p className="mt-0.5">Play</p>
             </button>
          </div>
-      </button>
+      </div>
    )
 }
 
