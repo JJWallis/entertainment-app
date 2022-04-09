@@ -1,10 +1,10 @@
 import React from 'react'
 
 interface Props {
-   bookmarked: boolean
+   isBookMarked: boolean
 }
 
-const Bookmark: React.FC<Props> = ({ bookmarked }) => {
+const Bookmark: React.FC<Props> = ({ isBookMarked }) => {
    return (
       <button
          aria-label={''}
