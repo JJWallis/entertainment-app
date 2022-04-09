@@ -2,11 +2,7 @@ export interface Film {
    title: string
    thumbnail: {
       trending: Thumbnail
-      regular: {
-         small: string
-         medium: string
-         large: string
-      }
+      regular: Regular
    }
    year: string
    category: string
@@ -20,4 +16,8 @@ interface Thumbnail {
    medium: string
 }
 
-interface Regular {}
+interface Regular {
+   small: string
+   medium: string
+   large: string
+}
