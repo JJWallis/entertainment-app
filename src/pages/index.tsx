@@ -5,7 +5,7 @@ import { FilmData } from '../types/Film.interface'
 
 const Home: NextPage = () => {
    const renderFilms = (films: FilmData[]) => {
-      return films.map((film, idx) => <Film key={idx} data={film} />)
+      return films.map((film, idx) => <Film key={idx} {...film} />)
    }
 
    return (

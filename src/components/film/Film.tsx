@@ -4,21 +4,11 @@ import Image from 'next/image'
 import Bookmark from './Bookmark'
 import type { FilmData } from '../../types/Film.interface'
 
-interface Props {
-   data: FilmData
-}
-
-const Film: React.FC<Props> = ({ data }) => {
-   const {
-      isBookmarked,
-      title,
-      thumbnail: { regular },
-   } = data
-
+const Film: React.FC<FilmData> = ({ isBookmarked, title, thumbnail }) => {
    return (
       <div role="gridcell" className="relative block">
          <Image
-            src={process.env.PUBLIC_URL + regular.large}
+            src={`/${thumbnail.regular.large}`}
             alt={title}
             width={'100%'}
             height={'100%'}
