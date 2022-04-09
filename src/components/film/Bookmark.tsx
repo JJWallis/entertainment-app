@@ -1,17 +1,14 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 interface Props {
-   bookmarked: boolean
+   isBookMarked: boolean
 }
 
-const Bookmark: React.FC<Props> = ({ bookmarked }) => {
-   const [bookmark, setBoomark] = useState(bookmarked)
-   // style selected state
-
+const Bookmark: React.FC<Props> = ({ isBookMarked }) => {
    return (
       <button
          aria-label={''}
-         className="absolute z-20  top-[5%] right-[5%] grid place-items-center col-span-full row-span-full w-10 h-10 rounded-full bg-[#000] bg-opacity-70 hover:bg-white group transition-bg duration-200 ease-in-out"
+         className="absolute z-20 top-[5%] right-[5%] grid place-items-center col-span-full row-span-full w-10 h-10 rounded-full bg-[#000] bg-opacity-70 hover:bg-white group transition-bg duration-200 ease-in-out"
       >
          <svg width="12" height="14" xmlns="http://www.w3.org/2000/svg">
             <path

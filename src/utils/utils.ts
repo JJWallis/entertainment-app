@@ -1,5 +1,3 @@
-// lodash
-
 export const sampleOne = <T>(arr: T[]) => {
    return arr[Math.floor(Math.random() * arr.length)]
 }
