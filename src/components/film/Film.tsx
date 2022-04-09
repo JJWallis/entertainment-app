@@ -3,10 +3,11 @@ import TestImg from '../../assets/thumbnails/112/regular/large.jpg'
 import Play from '../../assets/icon-play.svg'
 import Image from 'next/image'
 import Bookmark from './Bookmark'
+import type { Film } from '../../types/Film.interface'
 
-//  process.env.PUBLIC_URL => dunamic imgs
+// process.env.PUBLIC_URL
 
-const Film: React.FC = () => {
+const Film: React.FC<Film> = () => {
    return (
       <div role="gridcell" className="relative block">
          <Image
