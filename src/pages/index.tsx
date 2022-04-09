@@ -12,6 +12,4 @@ const Home: NextPage = () => {
    )
 }
 
-// bookmark + film component
-
 export default Home
