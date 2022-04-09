@@ -11,4 +11,11 @@ export interface Film {
          large: string
       }
    }
+   year: string
+   category: string
+   rating: string
+   isBookmarked: boolean
+   isTrending: boolean
 }
+
+interface Thumbnail {}
