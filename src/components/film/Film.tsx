@@ -1,11 +1,10 @@
 import React from 'react'
-import TestImg from '../../assets/thumbnails/112/regular/large.jpg'
 import Play from '../../assets/icon-play.svg'
 import Image from 'next/image'
 import Bookmark from './Bookmark'
-import type { Film } from '../../types/Film.interface'
+import type { FilmData } from '../../types/Film.interface'
 
-const Film: React.FC<Film> = ({ title, isBookmarked, thumbnail }) => {
+const Film: React.FC<FilmData> = ({ title, isBookmarked, thumbnail }) => {
    const { regular } = thumbnail
    return (
       <div role="gridcell" className="relative block">
