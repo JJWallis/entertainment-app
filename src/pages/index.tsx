@@ -1,15 +1,13 @@
 import type { NextPage } from 'next'
-import Films from '../data.json'
-import Film from '../components/film'
-import { FilmData } from '../types/Film.interface'
+import Navbar from '../components/navbar'
+
+// rename Film comp - not just films
 
 const Home: NextPage = () => {
-   const renderFilms = (films: FilmData[]) => {
-      return films.map((film, idx) => <Film key={idx} {...film} />)
-   }
-
    return (
-      <main className="grid grid-cols-movies gap-8">{renderFilms(Films)}</main>
+      <main>
+         <Navbar />
+      </main>
    )
 }
 
