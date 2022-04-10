@@ -1,6 +1,7 @@
 import type { NextPage } from 'next'
 import Navbar from '../components/navbar'
-import Films from '../data.json'
+
+// rename Film comp - not just films
 
 const Home: NextPage = () => {
    return (

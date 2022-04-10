@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from '../../assets/logo.svg'
+import Link from 'next/link'
 import Image from 'next/image'
 
 const NavBar: React.FC = () => {
@@ -9,7 +10,15 @@ const NavBar: React.FC = () => {
             <div className="grid place-items-center">
                <Image src={Logo} alt="" width="35px" height="35px" />
             </div>
-            <nav></nav>
+            <nav>
+               <ul>
+                  <li>
+                     <Link href="/" passHref>
+                        {/* scvf */}
+                     </Link>
+                  </li>
+               </ul>
+            </nav>
             <div>{/* profile */}</div>
          </div>
       </div>
