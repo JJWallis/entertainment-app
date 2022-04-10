@@ -1,8 +1,13 @@
 import type { NextPage } from 'next'
+import Navbar from '../components/navbar'
 import Films from '../data.json'
 
 const Home: NextPage = () => {
-   return <main></main>
+   return (
+      <main>
+         <Navbar />
+      </main>
+   )
 }
 
 export default Home
